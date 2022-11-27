@@ -12,7 +12,7 @@ player = None
 # The .lower() method is used to ensure that the string is converted to lower case
 # The input() function is used to take the user's input and returns it
 while player not in choices:
-    player = input("Choose between rock, paper or scissors?: ").lower()
+    player: str = input("Choose between rock, paper or scissors?: ").lower()
 
 #  If, elif, else  statements are used to compare with the input value with the value that the user selects
 if player == computer:
