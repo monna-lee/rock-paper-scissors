@@ -1,4 +1,5 @@
 # Random is a library with functions that randomly selects something
+# Typing module adds support for type hints
 import random
 from typing import List
 
