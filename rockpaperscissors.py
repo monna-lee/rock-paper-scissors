@@ -8,6 +8,7 @@ print(type(choices))
 computer: str = random.choice(choices)
 print(type(computer))
 player: str = None
+player = Union[str, None]
 
 # The .lower() method is used to ensure that the string is converted to lower case
 # The input() function is used to take the user's input and returns it
