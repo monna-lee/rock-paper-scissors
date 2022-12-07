@@ -1,5 +1,5 @@
 # Random is a library with functions that randomly selects something
-# Typing module adds support for type hints
+# Typing module adds support for type hints and it can define the type of Lists, Dictionaries and other Python objects
 import random
 from typing import List
 
